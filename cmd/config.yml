@@ -1,0 +1,17 @@
+log_file: "./log"
+log_level: DEBUG
+
+svc_address: "127.0.0.1:5800"
+cqhttp_address: "127.0.0.1:5700"
+keywords:
+  - "你好"
+  - "hello"
+to_id: 1425697684
+
+#crontables:
+#  - to_id: 1425297684
+#    message: "hello"
+#    cron: "*/1 * * * *"
+#  - to_id: 1423697684
+#    message: "你好啊"
+#    cron: "*/3 * * * *"
